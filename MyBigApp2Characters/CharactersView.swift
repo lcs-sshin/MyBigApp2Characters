@@ -21,12 +21,13 @@ struct CharactersView: View {
                         Text("Harry Potter")
                             .font (.title2)
                         Text("Gryffindor")
-                        Image(systemName: "chevron.frontwards")
+                     
                         
                         
                         
                     }
                     Spacer()
+                    Image(systemName: "chevron.frontwards")
                     
                 }
                 .padding()
@@ -40,12 +41,13 @@ struct CharactersView: View {
                         Text("Hermione Granger")
                             .font (.title2)
                         Text("Gryffindor")
-                        Image(systemName: "chevron.frontwards")
+                      
                         
                         
                         
                     }
                     Spacer()
+                    Image(systemName: "chevron.frontwards")
                     
                 }
                 .padding()
@@ -59,12 +61,13 @@ struct CharactersView: View {
                         Text("Ron Weasley")
                             .font (.title2)
                         Text("Gryffindor")
-                        Image(systemName: "chevron.frontwards")
+                     
                         
                         
                         
                     }
                     Spacer()
+                    Image(systemName: "chevron.frontwards")
                     
                 }
                 .padding()
@@ -78,12 +81,13 @@ struct CharactersView: View {
                         Text("Draco Malfoy")
                             .font (.title2)
                         Text("Slytherin")
-                        Image(systemName: "chevron.frontwards")
+                        
                         
                         
                         
                     }
                     Spacer()
+                    Image(systemName: "chevron.frontwards")
                     
                 }
                 .padding()
@@ -91,21 +95,21 @@ struct CharactersView: View {
             }
             VStack(spacing:10){
                 HStack{
+                    
                     Rectangle()
                         .frame(width:60,height:90)
                     VStack(alignment:.leading, spacing:0){
                         Text("Minerva McGonagall")
                             .font (.title2)
                         Text("Gryffindor")
-                        Image(systemName: "chevron.frontwards")
-                        
-                        
-                        
+                       
                     }
                     Spacer()
                     
+                    Image(systemName: "chevron.frontwards")
                 }
                 .padding()
+                
                 
             }
             
