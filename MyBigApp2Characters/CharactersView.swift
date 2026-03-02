@@ -27,7 +27,7 @@ struct CharactersView: View {
                         
                     }
                     Spacer()
-                    Image(systemName: "chevron.frontwards")
+                    Image(systemName: "chevron.right")
                     
                 }
                 .padding()
@@ -47,7 +47,7 @@ struct CharactersView: View {
                         
                     }
                     Spacer()
-                    Image(systemName: "chevron.frontwards")
+                    Image(systemName: "chevron.right")
                     
                 }
                 .padding()
@@ -67,7 +67,7 @@ struct CharactersView: View {
                         
                     }
                     Spacer()
-                    Image(systemName: "chevron.frontwards")
+                    Image(systemName: "chevron.right")
                     
                 }
                 .padding()
@@ -87,7 +87,7 @@ struct CharactersView: View {
                         
                     }
                     Spacer()
-                    Image(systemName: "chevron.frontwards")
+                    Image(systemName: "chevron.right")
                     
                 }
                 .padding()
@@ -106,7 +106,7 @@ struct CharactersView: View {
                     }
                     Spacer()
                     
-                    Image(systemName: "chevron.frontwards")
+                    Image(systemName: "chevron.right")
                 }
                 .padding()
                 
