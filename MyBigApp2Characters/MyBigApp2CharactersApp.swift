@@ -11,7 +11,7 @@ import SwiftUI
 struct MyBigApp2CharactersApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CharactersView()
         }
     }
 }
